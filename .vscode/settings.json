@@ -1,0 +1,14 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    /* EMMET */
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showSuggestionsAsSnippets": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+}
