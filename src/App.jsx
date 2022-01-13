@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import {
   Statistics,
   FeedbackOptions,
@@ -13,6 +14,7 @@ export class App extends Component {
     bad: 0,
   };
   handleClick = event => {
+    event.target.blur();
     const { name } = event.target;
     this.setState({ [name]: this.state[name] + 1 });
   };
